@@ -1,0 +1,51 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+header{
+    display: flex;
+    background-color: #0074d9;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    color: #333;
+}
+li a:hover{
+    opacity: 0.8;
+}
